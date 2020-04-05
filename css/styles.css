@@ -1,0 +1,73 @@
+p {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+th, td {
+  border: 1px solid #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.img-block{
+  background-image: url(images/dark-background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+}
+
+.ni {
+  padding-right: 10%;
+}
+
+.nc {
+  padding-right: 3%;
+}
+
+
+.para{
+  padding: 10%;
+}
+
+.img1{
+  float: left;
+  width: 65%;
+}
+
+.img2{
+  float: right;
+  width: 35%;
+}
+
+.table {
+  padding-bottom: 30%;
+  padding-left: 30%;
+  padding-top: 30%;
+}
+
+.tb {
+  align-items: center;
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+}
+
+.form {
+  background: #B4B4B4;
+  padding: 10%;
+}
+
+.in{
+  border-radius: 15px;
+}
+
+.footer{
+  padding: 1.5% 1%;
+}
+
+.nv {
+  padding-top: 3%;
+  padding-right: 3%;
+}
