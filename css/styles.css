@@ -1,6 +1,6 @@
 p {
   display: inline;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 th, td {
@@ -18,14 +18,34 @@ tr:nth-child(even) {
   padding: 20%;
 }
 
+.ws {
+  padding: 1.2%;
+}
+
 .ni {
-  padding-right: 10%;
+  list-style: none;
+  float: right;
+  padding-right: 2%;
+}
+
+.ni:hover{
+  color: grey;
+}
+
+.nb{
+  display: block;
+  float: left;
+  font-weight: 1000;
 }
 
 .nc {
+  display: block;
   padding-right: 3%;
 }
 
+.navbar{
+  background-color: #292929;
+}
 
 .para{
   padding: 10%;
@@ -64,10 +84,50 @@ tr:nth-child(even) {
 }
 
 .footer{
+  display: inline-block;
   padding: 1.5% 1%;
 }
 
 .nv {
-  padding-top: 3%;
-  padding-right: 3%;
+  padding-left: 95%;
+}
+
+.nif {
+  color: grey;
+  display: block;
+  list-style: none;
+  padding-bottom: 20%;
+  vertical-align: top;
+}
+
+.nif:hover{
+  color: white;
+}
+
+.nib{
+  color: grey;
+}
+
+.bt {
+	box-shadow:inset 0px 0px 15px 3px #474747;
+	background:linear-gradient(to bottom, #0d0d0d 5%, #474747 100%);
+	background-color:#0d0d0d;
+	border-radius:17px;
+	border:1px solid #3d3d3d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+}
+.bt:hover {
+	background:linear-gradient(to bottom, #474747 5%, #0d0d0d 100%);
+	background-color:#474747;
+}
+.bt:active {
+	position:relative;
+	top:1px;
 }
